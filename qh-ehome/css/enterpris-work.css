@@ -1,0 +1,585 @@
+.enterpris-work {}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.content {
+    width: 100%;
+    height: 795px;
+}
+
+
+/* 左边信息栏 */
+
+.content .info {
+    width: 360px;
+    height: 795px;
+    background-color: #f5f6f7;
+    float: left;
+    padding-top: 10px;
+}
+
+.content .info .info-detailbtn {
+    margin-left: 240px;
+}
+
+.content .info .info-detailbtn span {
+    width: 56px;
+    height: 12px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #6f6f6f;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.content .info .info-headimg {
+    width: 110px;
+    height: 110px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 23px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.content .info .info-headimg img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.content .info .info-welcome {
+    width: 142px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #333333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content .info .info-line {
+    width: 360px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content .info .info-phone {
+    margin-bottom: 18px !important;
+}
+
+.content .info .info-phone div {
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/enterpris-work/tel.png);
+    background-size: cover;
+    float: left;
+}
+
+.content .info .info-phone span:nth-child(2),
+.content .info .info-email span:nth-child(2) {
+    line-height: 24px;
+    margin-left: 14px;
+}
+
+.content .info .info-phone span:nth-child(3),
+.content .info .info-email span:nth-child(3) {
+    line-height: 24px;
+    margin-left: 108px;
+}
+
+.content .info .info-email span:nth-child(3) {
+    margin-left: 66px;
+}
+
+.content .info .info-phone,
+.info-email {
+    width: 300px;
+    height: 24px;
+    margin: 0 auto;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #111111;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.content .info .info-email div {
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/enterpris-work/mail.png);
+    background-size: cover;
+    float: left;
+}
+
+.content .info .info-message {
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: solid 1px #379cff;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #333333;
+}
+
+.info .info-message {
+    overflow: hidden;
+    text-align: center;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+.info .info-message-img {
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/enterpris-work/message.png);
+    background-size: cover;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 48px;
+}
+
+
+/* 右边处理事情栏 */
+
+.content .handle {
+    height: 795px;
+    margin-left: 400px;
+    padding: 10px;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.handle .myhandle h1 {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 18px;
+    line-height: 31px;
+    color: #555555;
+    width: 72px;
+    border-bottom: 4px solid #f89d2f;
+    font-weight: bold;
+}
+
+.handle .myhandle-line {
+    height: 1px;
+    background: #e3e3e3;
+    width: 100%;
+    margin-top: -8px;
+}
+
+.handle .myhandle ul {
+    overflow: hidden;
+    min-width: 1000px;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.handle .myhandle ul li {
+    list-style: none;
+    float: left;
+    width: 224px;
+    height: 124px;
+    border-radius: 2px;
+}
+
+.handle .myhandle ul li {
+    margin-left: 20px;
+    border: 1px solid #9ad5ff;
+    box-sizing: border-box
+}
+
+.handle .myhandle ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+.handle .myhandle li .myhandle-line-ahead {
+    height: 100%;
+}
+
+.handle .myhandle li .myhandle-line-cover {
+    position: relative;
+    display: none;
+    top: -100%;
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.handle li .cover-title {
+    width: 118px;
+    height: 32px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    line-height: 20px;
+    color: #007fe2;
+    top: 20px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.handle li .cover-foot {
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    background-color: #379cff;
+    font-family: MicrosoftYaHei;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.handle li .cover-foot a {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.cover-foot-left a:hover,
+.cover-foot-right a:hover {
+    font-weight: bold;
+}
+
+.handle li .cover-foot .cover-foot-left {
+    float: left;
+    width: 50%;
+    line-height: 50px;
+    text-align: center;
+}
+
+.handle li .cover-foot .cover-foot-mid {
+    float: left;
+    width: 1px;
+    line-height: 50px;
+}
+
+.handle li .cover-foot .cover-foot-right {
+    float: right;
+    width: 49%;
+    line-height: 50px;
+    text-align: center;
+}
+
+.handle li .myhandle-line-ahead {
+    background-color: #f6fbff;
+    width: 100%;
+    text-align: center;
+}
+
+.handle li .myhandle-line-ahead img {
+    width: 48px;
+    height: 48px;
+    margin-top: 12px;
+}
+
+.handle li .myhandle-line-ahead p {
+    width: 146px;
+    height: 32px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    line-height: 20px;
+    color: #007fe2;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.li-more {
+    text-align: center;
+    background-color: #f3f3f3;
+    line-height: 124px;
+    width: 28px;
+    height: 12px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    line-height: 124px;
+    border: none !important;
+}
+
+.li-more a {
+    color: #777777;
+}
+
+.li-more a:hover {
+    color: #777777;
+}
+
+.li-more img {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* 我的通知 */
+
+.handle-message h1 {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #999999;
+    cursor: pointer;
+}
+
+.handle-message h1.handle-active {
+    color: #555555;
+    border-bottom: 4px solid #f89d2f;
+}
+
+.handle-message h1.handle-active span {
+    color: red;
+}
+
+.handle-message-title {
+    overflow: hidden;
+    min-width: 300px;
+}
+
+.handle-message h1:nth-child(1) {
+    width: 103px;
+    float: left;
+    margin-right: 5px;
+}
+
+.handle-message-span {
+    float: left;
+    margin-right: 5px;
+    line-height: 31px;
+    color: #555555;
+}
+
+.handle-message h1:nth-child(3) {
+    width: 103px;
+    float: left;
+}
+
+.handle-message .handle-message-line {
+    height: 1px;
+    background: #e3e3e3;
+    width: 100%;
+}
+
+.change-box-message {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    min-width: 872px;
+}
+
+.change-box-handle {
+    width: 100%;
+    height: 300px;
+    display: none;
+    margin-top: 20px;
+    min-width: 872px;
+}
+
+.change-box-message table td:nth-child(1) {
+    text-align: left;
+}
+
+
+/* 我的办件 */
+
+.change-box-handle .message-search .item-name,
+.business-category,
+.notice-search input,
+.message-search select {
+    width: 300px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: solid 1px #c3c3c3;
+    opacity: 0.72;
+}
+
+.change-box-handle .message-search label,
+.notice-search label {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    line-height: 31px;
+    color: #666666;
+}
+
+.change-box-handle .message-search label:nth-child(3) {
+    margin-left: 15px;
+}
+
+.change-box-handle .message-search button,
+.notice-search button {
+    width: 80px;
+    height: 40px;
+    background-color: #379cff;
+    border-radius: 2px;
+    border: none;
+    color: #fefefe;
+    margin-left: 15px;
+}
+
+.change-box-handle table {
+    width: 95%;
+    border-collapse: collapse;
+    background-color: #fefefe;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.change-box-handle table th {
+    border: 1px solid #e3e3e3;
+    background-color: #f8f8f8;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+    height: 42px;
+}
+
+.change-box-handle table th:nth-child(3),
+.change-box-handle table td:nth-child(3) {
+    max-width: 140px;
+}
+
+.change-box-handle table td {
+    border: 1px solid #e3e3e3;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #333333;
+    max-width: 200px;
+    padding: 7px;
+    height: 42px;
+}
+
+.change-box-handle table td:nth-last-child(1):hover {
+    color: #007fe2;
+    cursor: pointer;
+}
+
+.notice-page,
+.handle-page {
+    margin-top: 14px;
+    overflow: hidden;
+    height: 54px;
+}
+
+.notice-page-span,
+.handle-page-span {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    line-height: 30px;
+    color: #444444;
+    line-height: 54px;
+}
+
+.notice-page-span:nth-child(1),
+.handle-page-span:nth-child(1) {
+    margin-right: 10px;
+}
+
+.notice-page nav,
+.handle-page nav {
+    float: right;
+    margin-right: 55px;
+    height: 100%;
+}
+
+.notice-page nav ul,
+.handle-page nav ul {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* 我的通知 */
+
+.notice-search {
+    height: 42px;
+}
+
+.change-box-message .notice-rember {
+    width: 141px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    line-height: 31px;
+    color: #007fe2;
+    margin: 14px;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.change-box-message table {
+    width: 95%;
+    height: 300px;
+    border-collapse: collapse;
+    background-color: #fefefe;
+    text-align: center;
+}
+
+.change-box-message table th {
+    border: 1px solid #e3e3e3;
+    background-color: #f8f8f8;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+}
+
+.change-box-message table td {
+    border: 1px solid #e3e3e3;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #333333;
+    max-width: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.change-box-message table td:nth-child(3) {
+    color: #007fe2;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.change-box-message table td:nth-child(3):hover {
+    opacity: .7;
+}
+
+.page-link {
+    line-height: 1rem !important;
+}
+
+a:not([href]):not([tabindex]):hover {
+    color: #fff !important;
+}
+
+a:not([href]):not([tabindex]) {
+    color: #007fe2 !important;
+}
+
+.page-link:hover {
+    color: #fff !important;
+    background: #379cff !important;
+}
